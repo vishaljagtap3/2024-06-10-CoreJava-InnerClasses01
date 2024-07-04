@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Outer o1 = new Outer(10);
+        Test t1 = new Test(1, "maths test", 101, "Some Name", 20, "Maths", 100);
+        t1.display();
+
+        /*Outer o1 = new Outer(10);
         Outer.Inner in11 = o1.new Inner(100);
         Outer.Inner in12 = o1.new Inner(1000);
         o1.display();
@@ -28,7 +31,7 @@ public class Main {
         System.out.println();
 
         in21.display();
-        in22.display();
+        in22.display();*/
 
     }
 }
